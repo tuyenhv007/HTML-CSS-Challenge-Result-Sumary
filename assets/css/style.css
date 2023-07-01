@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: HankenGrotesk-Medium;
+    src: url(../fonts/static/HankenGrotesk-Medium.ttf);
+}
+@font-face {
+    font-family: HankenGrotesk-Bold;
+    src: url(../fonts/static/HankenGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: HankenGrotesk-ExtraBold;
+    src: url(../fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    font-size: 18px;
+}
+
+/* css Result */
+
+.parent-score {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    width: 550px;
+    height: 380px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.your-score {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    border-right: 1px solid #000;
+    border-radius: 8%;
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    background: linear-gradient(to top, #332de9, #6743ff);
+    
+}
+
+.your-score .y-result {
+    color: #ccc;
+    font-family: HankenGrotesk-Medium, sans-serif;
+  
+}
+
+.sumary-score {
+    width: 50%;
+    
+}
+
+.y-result p{
+    padding: 26px 30px;
+}
+
+.detail-score {
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid #000; */
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #462ad7;
+    font-family: HankenGrotesk-Medium, sans-serif;
+}
+
+.detail-score p:first-child {
+    font-size: 42px;
+    padding-top: 40px;
+    font-family: HankenGrotesk-Bold, sans-serif;
+}
+
+.detail-score p:nth-child(2) {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.type-result p {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    font-family: HankenGrotesk, sans-serif;
+}
+
+.detail-result p {
+    font-size: 13px;
+    font-family: HankenGrotesk, sans-serif;
+    color: #ccc;
+}
+
+/* css Sumary */
