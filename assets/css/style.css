@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: boder-box;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 /* css Result */
@@ -89,8 +89,91 @@
 
 .detail-result p {
     font-size: 13px;
-    font-family: HankenGrotesk, sans-serif;
+    font-family: HankenGrotesk-Medium, sans-serif;
     color: #ccc;
 }
 
 /* css Sumary */
+
+.sumary-score {
+    font-family: HankenGrotesk-Bold;
+}
+
+.container-sumary {
+    padding: 26px 26px;
+    
+}
+
+.s-score span{
+    font-family: HankenGrotesk-Bold, sans-serif;
+}
+
+
+
+.s-container-reaction {
+    /* display: flex; */
+    margin-top: 18px;
+    background-color: #fff6f5;
+}
+
+.r-container-common {
+    border: 1px solid #000;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.container-sumary .r-icon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.s-container-reaction .color-reaction {
+    color: #f48384;
+
+}
+
+.s-container-memory {
+    background-color: #fffbf2;
+}
+
+.s-container-memory .color-memory {
+    color: #e2c178;
+}
+
+.s-container-verbal {
+    background-color: #f2fbfa;
+}
+
+.s-container-verbal .color-verbal  {
+    color: #26a07f;
+}
+
+.s-container-visual {
+    background-color: #f3f3fd;
+    margin-bottom: 28px;
+}
+
+.s-container-visual .color-visual {
+    color: #2a36a0;
+}
+
+.container-sumary .sc-detail {
+    position: absolute;
+    right: 12px;
+}
+
+.container-sumary .s-max {
+    color: #a19da3;
+}
+
+.s-btn-continue button {
+    width: 100%;
+    padding: 10px 48px;
+    border-radius: 26px;
+    background-color: #303b59;
+    color: #fff;
+    font-family: HankenGrotesk-Bold, sans-serif;
+}

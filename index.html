@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.google.com/specimen/Hanken+Grotesk" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   
 </head>
 <body>
@@ -37,32 +39,36 @@
 
     <div class="sumary-score">
         <div class="container-sumary">
-                <div class="s-score">
-                    <span>Summary</span>
-                </div>
-                <div class="s-container-reaction">
-                    <span>Reaction</span>
-                    <span>80 / 100</span>
-                </div>
-                <div class="s-container-memory">
-                <span>Memory</span>
-                    <span>92 / 100</span>
-                </div>
-                <div class="s-container-verbal">
-                <span>Verbal</span>
-                    <span>61 / 100</span>
-                </div>
-                <div class="s-container-visual">
-                    <span>Visual</span>
-                    <span>72 / 100</span>
-                </div>
-                <div class="s-btn-continue">
-                    <button>Continue</button>
-                </div>
+            <div class="s-score">
+                <span>Summary</span>
+            </div>
+            <div class="s-container-reaction r-container-common">
+                <ion-icon class="r-icon color-reaction" name="flash-outline"></ion-icon>
+                <span class="h-reaction color-reaction">Reaction</span>
+                <span class="sc-detail">80 <span class="s-max">/ 100</span></span>
+            </div>
+            <div class="s-container-memory r-container-common">
+                <ion-icon class="r-icon color-memory" name="flash-outline"></ion-icon>
+                <span class="color-memory">Memory</span>
+                <span class="sc-detail">92 <span class="s-max">/ 100</span></span>
+            </div>
+            <div class="s-container-verbal r-container-common">
+                <ion-icon class="r-icon color-verbal" name="flash-outline"></ion-icon>
+                <span class="color-verbal">Verbal</span>
+                <span class="sc-detail">61 <span class="s-max">/ 100</span></span>
+            </div>
+            <div class="s-container-visual r-container-common">
+                <ion-icon class="r-icon color-visual" name="flash-outline"></ion-icon>
+                <span class="color-visual">Visual</span>
+                <span class="sc-detail">72 <span class="s-max">/ 100</span></span>
+            </div>
+            <div class="s-btn-continue">
+                <button>Continue</button>
+            </div>
         </div>
     </div>
 
-  </div>
+</div>
   
 </body>
 </html>
