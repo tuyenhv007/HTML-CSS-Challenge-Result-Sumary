@@ -26,9 +26,9 @@
     margin-top: 64px;
     width: 550px;
     height: 380px;
-    border: 2px solid #000;
-    border-radius: 10px;
+    border-radius: 25px;
     display: flex;
+    box-shadow: 3px 11px 30px 15px #e8eefc;
     
 }
 
@@ -36,10 +36,7 @@
     width: 50%;
     text-align: center;
     color: #fff;
-    border-right: 1px solid #000;
-    border-radius: 8%;
-    /* border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px; */
+    border-radius: 25px;
     background: linear-gradient(to top, #332de9, #6743ff);
     
 }
@@ -57,6 +54,7 @@
 
 .y-result p{
     padding: 26px 30px;
+    font-size: 18px;
 }
 
 .detail-score {
@@ -70,13 +68,13 @@
 }
 
 .detail-score p:first-child {
-    font-size: 42px;
-    padding-top: 40px;
+    font-size: 52px;
+    padding-top: 32px;
     font-family: HankenGrotesk-Bold, sans-serif;
 }
 
 .detail-score p:nth-child(2) {
-    font-size: 14px;
+    font-size: 13px;
     color: #ccc;
 }
 
@@ -100,25 +98,22 @@
 }
 
 .container-sumary {
-    padding: 26px 26px;
+    padding: 26px 30px;
     
 }
 
 .s-score span{
     font-family: HankenGrotesk-Bold, sans-serif;
+    font-size: 18px;
 }
 
-
-
 .s-container-reaction {
-    /* display: flex; */
     margin-top: 18px;
     background-color: #fff6f5;
 }
 
 .r-container-common {
-    border: 1px solid #000;
-    padding: 8px 0;
+    padding: 12px 0;
     border-radius: 5px;
     font-size: 14px;
     margin-bottom: 12px;
@@ -153,7 +148,7 @@
 
 .s-container-visual {
     background-color: #f3f3fd;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
 .s-container-visual .color-visual {
@@ -171,9 +166,10 @@
 
 .s-btn-continue button {
     width: 100%;
-    padding: 10px 48px;
+    padding: 12px 48px;
     border-radius: 26px;
     background-color: #303b59;
     color: #fff;
     font-family: HankenGrotesk-Bold, sans-serif;
+    border: none;
 }
